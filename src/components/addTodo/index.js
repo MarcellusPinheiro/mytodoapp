@@ -15,7 +15,6 @@ const AddTodo = (fnAddTodo) => {
     const newToDo = { id: Math.random(), title: title, done: false };
     fnAddTodo.AddToDo(newToDo);
     emitter.emit("NOTIFICATION", "New ToDo added successfully");
-    //console.log(newToDo);
     setTitle("");
   };
 

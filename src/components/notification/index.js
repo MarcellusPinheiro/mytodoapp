@@ -28,6 +28,7 @@ const Notification = () => {
     setopen(true);
     autoHideAfterTimeout();
   });
+
   if (!open) {
     return null;
   }

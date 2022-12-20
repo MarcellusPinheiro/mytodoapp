@@ -16,11 +16,13 @@ const ToDoContainer = () => {
     console.log(newToDoList);
     setMyListToDos(newToDoList);
   };
+
   const handleRemoveToDo = (id) => {
     const newToDoList = myListToDos.filter((todo) => todo.id !== id);
     //console.log(newToDoList);
     setMyListToDos(newToDoList);
   };
+
   const handleCheckboxChange = (id) => {
     const newToDoList = myListToDos.map((todo) => {
       if (todo.id === id) return { ...todo, done: !todo.done };
@@ -29,6 +31,7 @@ const ToDoContainer = () => {
     //console.log(newToDoList);
     setMyListToDos(newToDoList);
   };
+
   return (
     <div style={{ margin: 20 }}>
       <h4 align='center'>Todo Application</h4>

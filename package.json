@@ -1,7 +1,7 @@
 {
   "name": "todo-list",
   "version": "0.1.0",
-  "homepage": "https://github.com/MarcellusPinheiro/mytodoapp",
+  "homepage": "https://github.com/MarcellusPinheiro/mytodoapp.git",
   "private": true,
   "dependencies": {
     "@mui/icons-material": "^5.11.0",

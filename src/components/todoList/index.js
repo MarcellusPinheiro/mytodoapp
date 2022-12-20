@@ -14,7 +14,6 @@ const TodoList = ({ myListToDo, removeToDo, clickCheckbox }) => {
     }
   };
 
-  //console.log(myListToDo);
   return (
     <div>
       <input

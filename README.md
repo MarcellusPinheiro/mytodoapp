@@ -1,3 +1,26 @@
+# Exemplo retirado do youtube
+
+https://www.youtube.com/watch?v=EnPw__DAeL4
+
+# Install fbemitter
+
+npm install fbemitter
+
+# controler version GITHUB
+
+{
+"homepage": "htpps://https://github.com/MarcellusPinheiro/mytodoapp",
+
+"scripts": {
+"predeploy":"npm run build",
+"deploy": "gh-pages -d build"
+}
+}
+
+Terminal
+
+> git init
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

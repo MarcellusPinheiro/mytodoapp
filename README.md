@@ -20,6 +20,11 @@ npm install fbemitter
 Terminal
 
 > git init
+> git add .
+> git commit -m "first version of deploy"
+> git branch -M main
+> git remote add origin https://github.com/MarcellusPinheiro/mytodoapp.git
+> git push -u origin main
 
 # Getting Started with Create React App
 
